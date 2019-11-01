@@ -22,6 +22,6 @@ df <- iris
 #* @png
 hw <- function() {
     p <- plot(df$Sepal.Length, df$Sepal.Width, 
-        main="Sample plot", sub="Iris", xlab="Sepal.Length"，ylab="Sepal.Width")
+        main="Sample plot", xlab="Sepal.Length", ylab="Sepal.Width")
     print(p)
 }
