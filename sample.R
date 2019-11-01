@@ -5,7 +5,7 @@ hw <- function() {
 
 #* @get /hello/<name>/<age>
 hw <- function(name, age) {
-    return(paste("Hello", name, "You're", age, "years old" seq=" "))
+    return(paste("Hello", name, "You're", age, "years old", seq=" "))
 }
 
 #* @get /fn
